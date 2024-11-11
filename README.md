@@ -89,3 +89,26 @@ After Checking that, **Go Back to Lutris** and press play an it should start wit
 **Fix:** Select the Game and Hit the Up Arrow next to Play and Select Configure, Go to Game Options and select the 3 dots then select the game executable and hit ok and close then the game should launch now.
 
 **What Caused It?:** when you install a game on lutris it will automatically select the executable in the game directory. if there is multiple executables it will pick the first one A-Z so it picked Rmesh Viewer instead of the game executable
+
+### 2. Performance Problems
+
+**Possible Fixes:** Depending on the device your using you might have to adjust the ingame graphical settings to fit the needs of the device your using. check for drivers that are needed on your system/distro or you need to update them, installing and using Dgvoodoo2 (Will Create a Guide later on that).
+
+### 3. Black Screen at launch 
+
+**Fixes:** Use Wine-GE, Regular Proton, or Proton-GE
+
+Note: problem only appers on base wine instead of of the versions mentioned, possibly due to patches in the versions that are unavalible in base wine.
+
+
+# Credits: 
+
+**Blitz3D TSS and UER Devs**
+
+https://github.com/Jabka666/scpcb-ue-my
+
+https://github.com/ZiYueCommentary/Blitz3D
+
+https://github.com/ZiYueCommentary/Blitz3D/commit/d16bf0ee19ce95c4633330f8900f01827df6e3b9
+
+https://github.com/ZiYueCommentary/Blitz3D/issues/16
