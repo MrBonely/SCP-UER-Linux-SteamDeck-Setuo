@@ -96,6 +96,8 @@ After Checking that, **Go Back to Lutris** and press play an it should start wit
 
 ### 3. Black Screen at launch 
 
+![](Images/Setup/CommonIssue3.png)
+
 **Fixes:** Use Wine-GE, Regular Proton, or Proton-GE
 
 Note: problem only appers on base wine instead of of the versions mentioned, possibly due to patches in the versions that are unavalible in base wine.
