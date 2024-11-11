@@ -67,7 +67,25 @@ After selecting configure a menu will pop with options to configure the game, Go
 
 After Getting to the directory/folder location, there will be a file called *Options.ini* 
 
+![](Images/Setup/Step3A.png)
+
+**Download The Pre-Configured Ini File from here in my repo and overwrite it with the on in the Data Folder** (*https://github.com/MrBonely/SCP-UER-Linux-SteamDeck-Setuo/blob/main/ini/options.ini*)
+
+Also open up the ini file and make sure it looks like this:
+
+![](Images/Setup/Step3B.png)
+
+After Checking that, **Go Back to Lutris** and press play an it should start with no Memory Access Violation
+
+![](Images/Setup/Step3C.png)
 
 
+# Common Issues:
 
+### 1. "Rmesh to load:"
 
+![](Images/Setup/CommonIssue1.png)
+
+**Fix:** Select the Game and Hit the Up Arrow next to Play and Select Configure, Go to Game Options and select the 3 dots then select the game executable and hit ok and close then the game should launch now.
+
+**What Caused It?:** when you install a game on lutris it will automatically select the executable in the game directory. if there is multiple executables it will pick the first one A-Z so it picked Rmesh Viewer instead of the game executable
